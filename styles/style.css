@@ -142,7 +142,7 @@ li.active
 #firstscreen
 {
     padding-top: 130px;
-    background-image: url(/images/first.png);
+    background-image: url(../images/first.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -208,7 +208,7 @@ li.active
 }
 #image_footer
 {
-    background-image: url(/images/icons/footer/footer.png);
+    background-image: url(../images/icons/footer/footer.png);
 }
 #photos
 {
