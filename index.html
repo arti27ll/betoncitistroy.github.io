@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="styles/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script src="scripts/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="scripts/jquery-3.6.0.min.js"></script>
+    <script src="scripts/header.js"></script>
+    <title>БетонСитиСтрой</title>
+</head>
+<body>
+    <!-- it's preloader -->
+    <div class="preloader">
+        <img class="preloader_image" src="/images/icons/preloader.svg">
+        </svg>
+    </div>
+    <!-- end of preloader -->
+    <!-- It's header -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top pt-2 pb-0" id="header">
+        <div class="container">
+            <a href="" class="navbar-brand pt-0">ЛОГОТИП</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item" name="advantages">
+                        <a href="#advantages" class="nav-link">ПРЕИМУЩЕСТВА</a>
+                    </li>
+                    <li class="nav-item" name="works">
+                        <a href="#works" class="nav-link">РАБОТЫ</a>
+                    </li>
+                    <li class="nav-item" name="price">
+                        <a href="#price" class="nav-link">ЦЕНЫ</a>
+                    </li>
+                    <li class="nav-item" name="aboutus">
+                        <a href="#aboutus" class="nav-link">О НАС</a>
+                    </li>
+                    <li class="nav-item" name="contacts">
+                        <a href="#contacts" class="nav-link">КОНТАКТЫ</a>
+                    </li>
+                </ul>
+                <div class="text-white fs-5" id="numsocial">
+                    <a><b>+7 (909) 677 77-36</b></a>
+                    <!-- <div class="d-flex justify-content-between">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+                      </svg>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End header -->
+    <main>
+        <!-- It's first screen -->
+        <div class="content" id="firstscreen">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-md-6 col-sm-12 text-white py-auto">
+                        <div class="px-2" id="heading">
+                            <h2 class="mb-0 fw-bold">ПРОИЗВОДСТВО БЕТОНА</h2>
+                            <h4 class="text-orange">ТОЛЬКО ИЗ КАЧЕСТВЕННОГО СЫРЬЯ</h4>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-md-6 col-sm-12 pe-0 text-white">
+                                <img src="/images/check.png" alt="check" width="38" height="38" class="mt-3 mb-2">
+                                <p class="fs-5 lh-sm"><b>Доставим<br>уже сегодня</b></p>
+                                <p class="lh-sm fs-6 fw-light">В любую точку Москвы<br>и Московской области</p>
+                            </div>
+                            <div class="col-md-5 col-sm-12 ps-0 text-white">
+                                <img src="/images/check.png" alt="check" width="38" height="38" class="mt-3 mb-2">
+                                <p class="fs-5 lh-sm"><b>Строгий<br>контроль качества</b></p>
+                                <p class="lh-sm fs-6 fw-light">На каждом этапе<br>производства</p>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-md-6 col-sm-12 pe-0 text-orange" id="procent">
+                                <h1>ДО 20%</h1>
+                            </div>
+                            <div class="col-md-5 col-sm-12 ps-0 text-white">
+                                <h5>ЭКОНОМИЯ<br>С НАМИ</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 text-center bg-white px-3 py-3 my-5" id="application">
+                        <form class="px-3 py-4">
+                            <h4 class="text-blue fw-bold mb-1">ОСТАВЬТЕ ЗАЯВКУ</h4>
+                            <p class="text-orange mb-1">ПРЯМО СЕЙЧАС</p>
+                            <p class="text-lightblue lh-sm fw-light">Менеджер свяжется с вами в ближайшее время</p>
+                                <input type="email" placeholder="Ваше имя" class="form-control br-0" aria-describedby="emailHelp">
+                                <input type="tel" placeholder="Ваш телефон" class="form-control">
+                                <input type="submit" id="submit1" class="form-control bg-orange text-white fw-bold" value="Отправить заявку">
+                            <div class="form-check my-3">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label fw-light lh-1" for="exampleCheck1">Соглашаюсь на обработку персональных данных</label>
+                            </div>
+                        </form>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    <!-- End first screen -->
+    <!-- It's advantages -->
+    <section class="container my-3 pt-6" id="advantages">
+        <div class="row">
+            <div class="col-md-4 col sm-2 text-left d-flex px-0">
+                <h2 class="my-auto"><span class="text-blue fw-bold">Преимущества</span><br>работы с нами<hr id="strip"></h2>
+            </div>
+            <div class="col-md-4 col sm-2 text-center border">
+                <img src="/images/icons/advantages/1.svg" alt="check" width="100" height="75" class="mt-4 mb-3">
+                <h5>Мы используем<br><span class="text-orange">качественное сырьё</span></h5>
+                <p>Мы гарантируем качество нашего бетона так как используем сырьё высшего сорта: мытый песок и щебень от производителя, а также немецкий цемент Heidelberg</p>
+            </div>
+            <div class="col-md-4 col sm-2 text-center border">
+                <img src="/images/icons/advantages/2.svg" alt="check" width="100" height="75" class="mt-4 mb-3">
+                <h5><span class="text-orange">Ежедневные проверки</span><br>в лаборатории</h5>
+                <p>Каждый день мы отливаем несколько кубов по каждой марке для проверки в лаборатории, это позволяет ежедневно контролировать качество нашего продукта на выходе</p>
+            </div>
+            <div class="col-md-4 col sm-2 text-center border">
+                <img src="/images/icons/advantages/3.svg" alt="check" width="100" height="75" class="mt-4 mb-3">
+                <h5>Рассчитаем точное<br>количество бетона и<br><span class="text-orange">сэкономим вам до 20%</span></h5>
+                <p>Мы поможем вам высчитать точное количество необходимого бетона для вашего проекта, а при необходимости проведём выезд-замер, во избежание переплаты за лишнее количество бетона, нашим клиентам мы экономим до 20% средств</p>
+            </div>
+            <div class="col-md-4 col sm-2 text-center border">
+                <img src="/images/icons/advantages/4.svg" alt="check" width="100" height="75" class="mt-4 mb-3">
+                <h5>Команда<br><span class="text-orange">квалифицированных менеджеров</span></h5>
+                <p>Команда наших квалифицированных менеджеров-специалистов ответит вам на вопросы и проконсультирует по нашим продуктам, а через 28 суток позвонят уточнить устроило ли качество и всё ли в порядке с бетоном</p>
+            </div>
+            <div class="col-md-4 col sm-2 text-center border">
+                <img src="/images/icons/advantages/5.svg" alt="check" width="100" height="75" class="mt-4 mb-3">
+                <h5><span class="text-orange">Собственный</span> автопарк<br>и команда профессиональных водителей</h5>
+                <p>Мы гарантируем поставки в полном объёме и в срок, благодаря собственному автопарку и команде опытных водителей</p>
+            </div>
+        </div>
+    </section>
+    <!-- End of advantages -->
+    <!-- Is's works -->
+    <section class="container my-3 pt-6 ps-0 pe-4" id="works">
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active d-flex flex-wrap justify-content-between">
+                    <div class="col-md-5 my-4">
+                        <div class="col-md-12">
+                            <h2>Наши<br><span class="text-blue fw-bold">работы и отзывы</span></h2>
+                        </div>
+                        <div class="col-md-12">
+                            <h4 class="mt-5">Министерство обороны РФ</h4>
+                            <p class="mb-0"><b>Задача:</b></p>
+                            <p>К нам в офис обратился Заместитель Министра Оборона с целью заказать 20.000 м³ бетона М350 с доставкой   для строительства военных штабов  в нескольких воинских частях Московской области. Работа была выполнена  в срок, заказчик остался удовлетворен работой и бетоном</p>
+                        </div>
+                    </div>
+                    <img src="/images/stroy.jpg" class="d-block col-md-6 " alt="...">
+                    <div class="row col-md-12">
+                        <div class="col-md-4 d-flex">
+                            <div class="col-md-3">
+                                <img src="/images/icons/works/1.svg" alt="" height="45px">
+                            </div>
+                            <div class="col-md-9">
+                                <b>Тип бетона</b>
+                                <p>Бетон М350 Гранит</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex">
+                            <div class="col-md-3">
+                                <img src="/images/icons/works/2.svg" alt="" height="45px">
+                            </div>
+                            <div class="col-md-9">
+                                <b>Объём</b>
+                                <p>20 000 м³</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 d-flex">
+                        </div>
+                        <div class="col-md-1 d-flex text-black-50 align-items-center text-center"><span id="arrow-left">←</span></div>
+                        <div class="col-md-1 d-flex text-black-50 align-items-center text-center"><span id="arrow-right">→</span></div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of works -->
+    <!-- It's price -->
+    <section class="content mt-3 pt-6 pb-5 px-0" id="price">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6"><h2><span class="text-blue fw-bold">Прайс-лист</span> на продукцию</h2></div>
+                <div class="col-md-6 d-flex justify-content-end btn-group" role="group" aria-label="Basic radio toggle button group" id="price_check">
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                    <label class="btn btn-outline-primary" for="btnradio1">Прайс-лист</label>
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="btnradio2">Информация по выбору</label>
+                </div>
+            </div>
+            <div class="row text-center justify-content-between mt-5 px-0 g-0">
+                <div class="price_item col-md-6 py-4 px-4">
+                    <h4>Бетон (Гранит)</h4>
+                    <table class="mt-4" cellpadding="10" width="100%">
+                        <tr><td>M100</td><td>B7.5 П4 F150 W6</td><td><b>3700 ₽/м³</b></td></tr>
+                        <tr><td>M150</td><td>B10/12.5 П4 F150 W4</td><td><b>3800 ₽/м³</b></td></tr>
+                        <tr><td>M200</td><td>B15 П4 F100 W4</td><td><b>4000 ₽/м³</b></td></tr>
+                        <tr><td>M250</td><td>B20 П4 F150 W4</td><td><b>4150 ₽/м³</b></td></tr>
+                        <tr><td>M300</td><td>B22.5 П4 F150 W6</td><td><b>4300 ₽/м³</b></td></tr>
+                        <tr><td>M350</td><td>B25 П4 F150 W6</td><td><b>4400 ₽/м³</b></td></tr>
+                        <tr><td>M400</td><td>B30 П4 F200 W10</td><td><b>4450 ₽/м³</b></td></tr>
+                        <tr><td>M450</td><td>B35 П4 F300 W12</td><td><b>4850 ₽/м³</b></td></tr>
+                        <tr><td>M550</td><td>B40 П4 F300 W12</td><td><b>5050 ₽/м³</b></td></tr>
+                    </table>
+                </div>
+                <div class="price_item col-md-6 py-4 px-4">
+                    <h4>Бетон (Гравий)</h4>
+                    <table class="mt-4" cellpadding="10" width="100%">
+                        <tr><td>M100</td><td>B7.5 П4 F150 W6</td><td><b>3300 ₽/м³</b></td></tr>
+                        <tr><td>M150</td><td>B10/12.5 П4 F150 W4</td><td><b>3400 ₽/м³</b></td></tr>
+                        <tr><td>M200</td><td>B15 П4 F100 W4</td><td><b>3600 ₽/м³</b></td></tr>
+                        <tr><td>M250</td><td>B20 П4 F150 W4</td><td><b>3750 ₽/м³</b></td></tr>
+                        <tr><td>M300</td><td>B22.5 П4 F150 W6</td><td><b>3900 ₽/м³</b></td></tr>
+                        <tr><td>M350</td><td>B25 П4 F150 W6</td><td><b>4000 ₽/м³</b></td></tr>
+                        <tr><td>M400</td><td>B30 П4 F200 W10</td><td><b>4100 ₽/м³</b></td></tr>
+                    </table>
+                </div>
+                <div class="price_item col-md-6 py-4 px-4">
+                    <h4>Керамзитобетон</h4>
+                    <table class="mt-4" cellpadding="10" width="100%">
+                        <tr><td>M100</td><td>B7.5 П4 D1200</td><td><b>3200 ₽/м³</b></td></tr>
+                        <tr><td>M150</td><td>B12.5 П4 D1200</td><td><b>3350 ₽/м³</b></td></tr>
+                        <tr><td>M200</td><td>B15 П4 D1200</td><td><b>3450 ₽/м³</b></td></tr>
+                        <tr><td>M250</td><td>B20 П4 D1200</td><td><b>3550 ₽/м³</b></td></tr>
+                        <tr><td>M300</td><td>B22.5 П4 D1200</td><td><b>3700 ₽/м³</b></td></tr>
+                    </table>
+                </div>
+                <div class="price_item col-md-6 py-4 px-4">
+                    <h4>Тощий бетон</h4>
+                    <table class="mt-4" cellpadding="10" width="100%">
+                        <tr><td>M100</td><td>B7.5 Ж3 F50 W2</td><td><b>3050 ₽/м³</b></td></tr>
+                        <tr><td>M150</td><td>12.5 Ж4 F100 W4</td><td><b>3150 ₽/м³</b></td></tr>
+                        <tr><td>M200</td><td>B15 Ж4 F100 W4</td><td><b>3350 ₽/м³</b></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of price-->
+    <!-- it's offer -->
+    <div class="content mb-5" id="offer">
+        <div class="container py-5 text-white">
+            <h2>Узнайте <span class="text-orange fw-bold">актуальные цены</span></h2>
+            <p class="fs-5 lh-1 text-slightblue">Менеджер подробно расскажет<br>об актуальных ценах и акциях</p>
+            <form class="row text-start g-0 col-md-8 mt-4" id="application_price">
+                <div class="col-md-4"><input type="email" placeholder="Ваше имя" class="form-control br-0 col-md-4" aria-describedby="emailHelp"></div>
+                <div class="col-md-4"><input type="tel" name="tel" placeholder="Ваш телефон" class="form-control col-md-4"></div>
+                <div class="col-md-4"><input type="submit" id="submit2" class="form-control bg-orange text-white fw-bold col-md-4" value="Отправить заявку"></div>
+                <div class="form-check my-2 text-white">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                    <label class="form-check-label fw-light lh-1" for="exampleCheck2">Соглашаюсь на обработку персональных данных</label>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- end of offer -->
+    <!-- it's about us -->
+    <section class="content my-3 pt-6 text-center" id="aboutus">
+        <div class="container">
+            <h2>О нашей<span class="text-blue fw-bold"> компании</span></h2>
+            <div class="row my-5 text-start gy-3">
+                <div class="col-md-3">
+                    <img src="images/icons/aboutus/1.svg" width="50px" height="50px">
+                    <br>
+                    <br>
+                    <p>На нашем заводе мы используем <b>современное оборудование турецкого производства Elkon</b></p>
+                </div>
+                <div class="col-md-3">
+                    <img src="images/icons/aboutus/2.svg" width="50px" height="50px">
+                    <br>
+                    <br>
+                    <p>Все наши сотрудники <b>имеют квалификацию и прошли соответствующее обучение</b></p>
+                </div>
+                <div class="col-md-3">
+                    <img src="images/icons/aboutus/3.svg" width="50px" height="50px">
+                    <br>
+                    <br>
+                    <p>Ежедневно мы отливаем несколько кубов бетона <b>для проверки в специальной лаборатории</b></p>
+                </div>
+                <div class="col-md-3">
+                    <img src="images/icons/aboutus/4.svg" width="50px" height="50px">
+                    <br>
+                    <br>
+                    <p>Наш автопарк насчитывает <b>15 единиц спецтехники</b>, а также <b>15 штатных водителей</b></p>
+                </div>
+                <div class="col-md-3">
+                    <img src="images/icons/aboutus/5.svg" width="50px" height="50px">
+                    <br>
+                    <br>
+                    <p>Наша продукция имеет необходимые <b>сертификаты качества и соответствует ГОСТам</b></p>
+                </div>
+                <div class="col-md-3">
+                    <img src="images/icons/aboutus/6.svg" width="50px" height="50px">
+                    <br>
+                    <br>
+                    <p>Наши менеджеры-специалисты <b>полностью сопровождают наших клиентов, в том числе и документально</b></p>
+                </div>
+                <div class="col-md-3">
+                    <img src="images/icons/aboutus/7.svg" width="50px" height="50px">
+                    <br>
+                    <br>
+                    <p>Для производства мы используем <b>мытый песок и щебень от именитой компании</b></p>
+                </div>
+                <div class="col-md-3">
+                    <img src="images/icons/aboutus/8.svg" width="50px" height="50px">
+                    <br>
+                    <br>
+                    <p>Мы закупаем только качественный цемент от <b>известной немецкой компании Heidelberg</b></p>
+                </div>
+            </div>
+            <!-- Is's slider -->
+        <div class="row pt-3 pb-5">
+            <div class="col-md-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner" id="photos">
+                        <div class="carousel-item active">
+                            <div class="col-md-4"><img src="images/aboutus/1.JPG" class="d-block w-100 h-100" alt="Фотография с объекта"></div>
+                            <div class="col-md-4"><img src="images/aboutus/2.JPG" class="d-block w-100 h-100" alt="Фотография с объекта"></div>
+                            <div class="col-md-4"><img src="images/aboutus/3.JPG" class="d-block w-100 h-100" alt="Фотография с объекта"></div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4"><img src="images/aboutus/4.JPG" class="d-block w-100 h-100" alt="Фотография с объекта"></div>
+                            <div class="col-md-4"><img src="images/aboutus/5.JPG" class="d-block w-100 h-100" alt="Фотография с объекта"></div>
+                            <div class="col-md-4"><img src="images/aboutus/6.JPG" class="d-block w-100 h-100" alt="Фотография с объекта"></div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-4"><img src="images/aboutus/7.JPG" class="d-block w-100 h-100" alt="Фотография с объекта"></div>
+                            <div class="col-md-4"><img src="images/aboutus/8.JPG" class="d-block w-100 h-100" alt="Фотография с объекта"></div>
+                            <div class="col-md-4"><img src="images/aboutus/9.JPG" class="d-block w-100 h-100" alt="Фотография с объекта"></div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- End of slider -->
+        </div>
+    </section>
+    <!-- Is's license -->
+    <div class="container">
+        <h2 class="text-start">Наши<span class="text-blue fw-bold"> Сертификаты</span></h2>
+        <div class="row row-cols-3 g-2 pt-4">
+            <div class="col license">
+                <img src="images/aboutus/license/1.jpg" alt="" width="100%" height="100%">
+            </div>
+            <div class="col license">
+                <img src="images/aboutus/license/2.jpg" alt="" width="100%" height="100%">
+            </div>
+            <div class="col license">
+                <img src="images/aboutus/license/3.jpg" alt="" width="100%" height="100%">
+            </div>
+        </div>
+    </div>
+    <!-- End of license -->
+    <!-- end of about us -->
+    <!-- It's contacts -->
+    <section class="content text-center" id="contacts">
+        <div class="col-md-12 g-0 d-flex">
+            <div class="col-md-10">
+                <div class="row g-0">
+                <div class="col-md-10" id="footer_space"></div>
+                </div>
+                <div class="row g-0">
+                <!-- 1st block footer -->
+                <div class="col-md-7">
+                    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2234.758143483388!2d37.97462071590805!3d55.93623058060279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b52ce5d6e332b9%3A0x5a0d4014daac4df7!2z0JHQvtCz0L7RgNC-0LTRgdC60LjQuSwgMSwg0KnRkdC70LrQvtCy0L4sINCc0L7RgdC60L7QstGB0LrQsNGPINC-0LHQuy4sIDE0MTEwNw!5e0!3m2!1sru!2sru!4v1618141876541!5m2!1sru!2sru" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+                    <iframe id="map_139743126" frameborder="0" width="100%" height="100%" sandbox="allow-modals allow-forms allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe><script type="text/javascript">(function(e,t){var r=document.getElementById(e);r.contentWindow.document.open(),r.contentWindow.document.write(atob(t)),r.contentWindow.document.close()})("map_139743126", "PGJvZHk+PHN0eWxlPgogICAgICAgIGh0bWwsIGJvZHkgewogICAgICAgICAgICBtYXJnaW46IDA7CiAgICAgICAgICAgIHBhZGRpbmc6IDA7CiAgICAgICAgfQogICAgICAgIGh0bWwsIGJvZHksICNtYXAgewogICAgICAgICAgICB3aWR0aDogMTAwJTsKICAgICAgICAgICAgaGVpZ2h0OiAxMDAlOwogICAgICAgIH0KICAgICAgICAuYnVsbGV0LW1hcmtlciB7CiAgICAgICAgICAgIHdpZHRoOiAyMHB4OwogICAgICAgICAgICBoZWlnaHQ6IDIwcHg7CiAgICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7CiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7CiAgICAgICAgICAgIGJveC1zaGFkb3c6IDAgMXB4IDNweCAwIHJnYmEoMCwgMCwgMCwgMC4yKTsKICAgICAgICAgICAgYm9yZGVyOiA0cHggc29saWQgIzAyODFmMjsKICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogNTAlOwogICAgICAgIH0KICAgICAgICAucGVybWFuZW50LXRvb2x0aXAgewogICAgICAgICAgICBiYWNrZ3JvdW5kOiBub25lOwogICAgICAgICAgICBib3gtc2hhZG93OiBub25lOwogICAgICAgICAgICBib3JkZXI6IG5vbmU7CiAgICAgICAgICAgIHBhZGRpbmc6IDZweCAxMnB4OwogICAgICAgICAgICBjb2xvcjogIzI2MjYyNjsKICAgICAgICB9CiAgICAgICAgLnBlcm1hbmVudC10b29sdGlwOmJlZm9yZSB7CiAgICAgICAgICAgIGRpc3BsYXk6IG5vbmU7CiAgICAgICAgfQogICAgICAgIC5kZy1wb3B1cF9oaWRkZW5fdHJ1ZSB7CiAgICAgICAgICAgIGRpc3BsYXk6IGJsb2NrOwogICAgICAgIH0KICAgICAgICAubGVhZmxldC1jb250YWluZXIgLmxlYWZsZXQtcG9wdXAgLmxlYWZsZXQtcG9wdXAtY2xvc2UtYnV0dG9uIHsKICAgICAgICAgICAgdG9wOiAwOwogICAgICAgICAgICByaWdodDogMDsKICAgICAgICAgICAgd2lkdGg6IDIwcHg7CiAgICAgICAgICAgIGhlaWdodDogMjBweDsKICAgICAgICAgICAgZm9udC1zaXplOiAyMHB4OwogICAgICAgICAgICBsaW5lLWhlaWdodDogMTsKICAgICAgICB9CiAgICA8L3N0eWxlPjxkaXYgaWQ9Im1hcCI+PC9kaXY+PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iaHR0cHM6Ly9tYXBzLmFwaS4yZ2lzLnJ1LzIuMC9sb2FkZXIuanM/cGtnPWZ1bGwmYW1wO3NraW49bGlnaHQiPjwvc2NyaXB0PjxzY3JpcHQ+KGZ1bmN0aW9uKGUsdCl7dmFyIHI9SlNPTi5wYXJzZShlKSxuPUpTT04ucGFyc2UodCk7ZnVuY3Rpb24gYShlKXtyZXR1cm4gZGVjb2RlVVJJQ29tcG9uZW50KGF0b2IoZSkuc3BsaXQoIiIpLm1hcChmdW5jdGlvbihlKXtyZXR1cm4iJSIrKCIwMCIrZS5jaGFyQ29kZUF0KDApLnRvU3RyaW5nKDE2KSkuc2xpY2UoLTIpfSkuam9pbigiIikpfURHLnRoZW4oZnVuY3Rpb24oKXt2YXIgZT1ERy5tYXAoIm1hcCIse2NlbnRlcjpbbi5sYXQsbi5sb25dLHpvb206bi56b29tfSk7REcuZ2VvSlNPTihyLHtzdHlsZTpmdW5jdGlvbihlKXt2YXIgdCxyLG4sYSxvO3JldHVybntmaWxsQ29sb3I6bnVsbD09PSh0PWUpfHx2b2lkIDA9PT10P3ZvaWQgMDp0LnByb3BlcnRpZXMuZmlsbENvbG9yLGZpbGxPcGFjaXR5Om51bGw9PT0ocj1lKXx8dm9pZCAwPT09cj92b2lkIDA6ci5wcm9wZXJ0aWVzLmZpbGxPcGFjaXR5LGNvbG9yOm51bGw9PT0obj1lKXx8dm9pZCAwPT09bj92b2lkIDA6bi5wcm9wZXJ0aWVzLnN0cm9rZUNvbG9yLHdlaWdodDpudWxsPT09KGE9ZSl8fHZvaWQgMD09PWE/dm9pZCAwOmEucHJvcGVydGllcy5zdHJva2VXaWR0aCxvcGFjaXR5Om51bGw9PT0obz1lKXx8dm9pZCAwPT09bz92b2lkIDA6by5wcm9wZXJ0aWVzLnN0cm9rZU9wYWNpdHl9fSxwb2ludFRvTGF5ZXI6ZnVuY3Rpb24oZSx0KXtyZXR1cm4icmFkaXVzImluIGUucHJvcGVydGllcz9ERy5jaXJjbGUodCxlLnByb3BlcnRpZXMucmFkaXVzKTpERy5tYXJrZXIodCx7aWNvbjpmdW5jdGlvbihlKXtyZXR1cm4gREcuZGl2SWNvbih7aHRtbDoiPGRpdiBjbGFzcz0nYnVsbGV0LW1hcmtlcicgc3R5bGU9J2JvcmRlci1jb2xvcjogIitlKyI7Jz48L2Rpdj4iLGNsYXNzTmFtZToib3ZlcnJpZGUtZGVmYXVsdCIsaWNvblNpemU6WzIwLDIwXSxpY29uQW5jaG9yOlsxMCwxMF19KX0oZS5wcm9wZXJ0aWVzLmNvbG9yKX0pfSxvbkVhY2hGZWF0dXJlOmZ1bmN0aW9uKGUsdCl7ZS5wcm9wZXJ0aWVzLmRlc2NyaXB0aW9uJiZ0LmJpbmRQb3B1cChhKGUucHJvcGVydGllcy5kZXNjcmlwdGlvbikse2Nsb3NlQnV0dG9uOiEwLGNsb3NlT25Fc2NhcGVLZXk6ITB9KSxlLnByb3BlcnRpZXMudGl0bGUmJnQuYmluZFRvb2x0aXAoYShlLnByb3BlcnRpZXMudGl0bGUpLHtwZXJtYW5lbnQ6ITAsb3BhY2l0eToxLGNsYXNzTmFtZToicGVybWFuZW50LXRvb2x0aXAifSl9fSkuYWRkVG8oZSl9KX0pKCdbeyJ0eXBlIjoiRmVhdHVyZSIsInByb3BlcnRpZXMiOnsidGl0bGUiOiIiLCJkZXNjcmlwdGlvbiI6IiIsImNvbG9yIjoiIzAyODFmMiIsInpJbmRleCI6MTAwMDAwMDAwMH0sImdlb21ldHJ5Ijp7InR5cGUiOiJQb2ludCIsImNvb3JkaW5hdGVzIjpbMzcuOTc2OTAzLDU1LjkzNjQzOF19LCJpZCI6Mjk2fV0nLCd7ImxhdCI6NTUuOTM2NjE4MzQxMDg5NywibG9uIjozNy45NzcxMzQ4NDkxNzc0Mywiem9vbSI6MTd9Jyk8L3NjcmlwdD48c2NyaXB0IGFzeW5jPSIiIHR5cGU9InRleHQvamF2YXNjcmlwdCIgc3JjPSJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbS9ndGFnL2pzP2lkPVVBLTE1ODg2NjE2OC0xIj48L3NjcmlwdD48c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCI+KGZ1bmN0aW9uKGUpe2Z1bmN0aW9uIHQoKXtkYXRhTGF5ZXIucHVzaChhcmd1bWVudHMpfXdpbmRvdy5kYXRhTGF5ZXI9d2luZG93LmRhdGFMYXllcnx8W10sdCgianMiLG5ldyBEYXRlKSx0KCJjb25maWciLGUpLHdpbmRvdy5ndGFnPXR9KSgnVUEtMTU4ODY2MTY4LTEnKTwvc2NyaXB0PjwvYm9keT4=")</script>
+                </div>
+                <!-- End 1st block footer -->
+                <!-- 2nd block foooter -->
+                <div class="col-md-5 h-100">
+                    <h2 class="text-start px-5"><span class="text-blue fw-bold">Свяжитесь</span> с нами</h2>
+                    <div class="fs-5 text-start my-5 mx-5">
+                        <ul class="nav flex-column">
+                            <li class="mb-3"><img src="images/icons/footer/map.svg" width="30px" height="30px" alt="" class="me-2">г. Щелково, мкр. Богородский,  д. 1-357</li>
+                            <li class="mb-3 fw-bold"><img src="images/icons/footer/mobile.svg" width="30px" height="30px" alt="" class="me-2">+7 (909) 677 77-36</li>
+                            <li class="mb-3 text-lightblue"><img src="images/icons/footer/mail.svg" width="30px" height="30px" alt="" class="me-2">9096777736@mail.ru</li>
+                        </ul>
+                    </div>
+                    <form class="row text-start px-5 py-5 g-0" id="application_footer">
+                        <p class="fs-3 text-slightblue">Остались вопросы?</p>
+                        <h2 class="fs-3 text-white mb-1">Оставьте заявку</h2>
+                        <p class="text-orange fs-5 lh-1">Менеджер ответит на ваши вопросы в ближайшее время</p>
+                        <input type="email" placeholder="Ваше имя" class="form-control br-0 w-50 mt-3" aria-describedby="emailHelp">
+                        <input type="tel" name="tel" placeholder="Ваш телефон" class="form-control w-50 mt-3">
+                        <input type="submit" id="submit3" class="form-control bg-orange text-white fw-bold" value="Отправить заявку »">
+                        <div class="form-check my-3 text-white">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                            <label class="form-check-label fw-light lh-1" for="exampleCheck2">Соглашаюсь на обработку персональных данных</label>
+                        </div>
+                    </form>
+                </div>
+                <!-- End 2nd block footer -->
+                </div>
+            </div>
+            <div class="col-md-2" id="image_footer"></div>
+        </div>
+    </section>
+    <!-- End of contacts -->
+    <div class="bg-dark text-white px-3 py-3" id="footer">
+        <div class="row g-0 d-flex justify-content-between">
+            <div class="col-md-4">
+                <span>ООО «‎БетонСитиСтрой» 2021, Все права защищены ©</span>
+            </div>
+            <div class="col-md-4 text-end">
+                <span><a href="https://kcf.team/member/id57455557">Разработка и продвижение сайтов</a></span>
+            </div>
+        </div>
+    </div>
+    </main>
+    <!-- it's preloader script-->
+    <script>
+        window.onload = function () {
+          document.body.classList.add('loaded_hiding');
+          window.setTimeout(function () {
+            document.body.classList.add('loaded');
+            document.body.classList.remove('loaded_hiding');
+          }, 1500);
+        }
+      </script>
+      <!-- end of preloader script-->
+</body>
+</html>

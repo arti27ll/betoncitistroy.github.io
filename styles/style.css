@@ -1,0 +1,269 @@
+@font-face 
+{
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Regular.ttf") format("ttf");
+
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Regular.ttf") format("ttf");
+}
+html, body
+{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    background-color: rgb(245, 245, 245)!important;
+}
+input
+{
+    border-radius: 0!important;
+}
+input:focus
+{
+    box-shadow: none!important;
+    border: 1px solid #ced4da;
+}
+.price_item
+{
+    border: 3px solid rgba(0,0,0,0.2);
+}
+.price_item:nth-child(1)
+{
+    border-bottom: 0px;
+}
+.price_item:nth-child(2)
+{
+    border-left: 0px;
+    border-bottom: 0px;
+}
+.price_item:nth-child(4)
+{
+    border-left: 0px;
+}
+.price_item table tr
+{
+    border-bottom: 2px dashed lightgray;
+}
+.price_item table tr:nth-last-child(1)
+{
+    border-bottom: 0;
+}
+.nav-item
+{
+    height: 100%;
+    margin: 0px 10px;
+    padding-bottom: 0.5rem!important;
+    border-bottom: 3.5px solid transparent;
+}
+.nav-item:hover
+{
+    border-bottom: 3.5px solid rgb(247,132,42);
+}
+li.active
+{
+    border-bottom: 3.5px solid rgb(247,132,42);
+}
+.license
+{
+    border: 4px solid #afc4f1;
+    border-left: 0;
+}
+.license:nth-child(1)
+{
+    border-left: 4px solid #afc4f1;
+}
+.text-orange
+{
+    color: rgb(247,132,42)!important;
+}
+.bg-orange
+{
+    background-color: rgb(247,132,42)!important;
+}
+.text-blue
+{
+    color: rgb(3,78,193)!important;
+}
+.text-lightblue
+{
+    color: rgb(70, 117, 187)!important;
+}
+.text-slightblue
+{ 
+    color: rgb(157, 191, 243)!important;
+}
+.text-justify
+{
+    text-align: justify!important;
+}
+.navbar-brand
+{
+    padding-bottom: 10.5px!important;
+}
+.btn
+{
+    border: 2px dotted gray!important;
+    border-radius: 0px!important;
+}
+.btn:hover
+{
+    background-color: rgb(248, 153, 80)!important;
+    border: 2px solid transparent!important;
+}
+.btn-check:checked+.btn-outline-primary
+{
+    border: 2px solid transparent!important;
+    background-color: rgb(247,132,42)!important;
+    color: white!important;
+    box-shadow: none!important;
+}
+#aboutus
+{
+    background-image: url(/images/backgrounds/bg_aboutus.png);
+}
+#offer
+{
+    background-image: url(/images/backgrounds/bg_offer2.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+#heading 
+{
+	position: relative;
+    border: 4px solid rgba(0,0,0,0.2);
+    border-right: 0;
+}
+#heading:before {
+	content: ""; 
+	border: solid transparent;
+	position: absolute;    
+	left: 100%;
+	border-left-color: rgba(0,0,0,0.2);
+	border-width: 41.6px;
+    top: -4px;
+}
+#numsocial
+{
+    padding-bottom: 10.5px!important;
+}
+#header
+{
+    transition: 0.25s;
+}
+#firstscreen
+{
+    padding-top: 130px;
+    background-image: url(/images/first.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#procent h1
+{
+    font-size: 38pt!important;
+    margin-top: -5px;
+}
+#application form
+{
+    border: 1px solid lightgrey;
+}
+#application_footer 
+{
+    background-color: darkblue
+}
+#submit1
+{
+    border: 1px solid rgb(247,132,42);
+}
+#strip
+{
+    height: 3px;
+    background-color: rgb(0, 102, 255);
+    width: 45px;
+}
+#advantages h5
+{
+    font-size: 14pt;
+}
+#advantages p
+{
+    font-size: 12pt;
+}
+#advantages .row div
+{
+    height: 380px;
+}
+#application input[type="email"]
+{
+    border-bottom: 0px;
+}
+#arrow-right, #arrow-left
+{
+    font-size: 30px;
+    border: 0.5px solid gray;
+    border-radius: 50%;
+    line-height: 35px;
+    height: 45px;
+    width: 45px;
+    margin: 0px auto;
+}
+#arrow-right:hover, #arrow-left:hover
+{
+    background-color: rgb(4, 0, 255);
+    color: white!important;
+    transition: 0.25s;
+    border: 0.5px solid transparent;
+}
+#arrow-right:active, #arrow-left:active
+{
+    box-shadow: 0 0 0 1rem rgb(224, 237, 250);
+}
+#image_footer
+{
+    background-image: url(/images/icons/footer/footer.png);
+}
+#price
+{
+    background-image: url(/images/backgrounds/bg_price.png)   
+}
+#photos
+{
+    height: 200px;
+}
+#photos .active, #photos .carousel-item-next, #photos .carousel-item-start
+{
+    display: flex!important;
+}
+#footer_space
+{
+    height: 120px;
+}
+#footer a
+{
+    text-decoration: none;
+}
+/* it's preloader */
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    /* фоновый цвет */
+    background: rgba(231, 231, 231, 0.7);
+    z-index: 1001;
+  }
+  
+  .preloader_image {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: -35px;
+    margin-left: -35px;
+    text-align: center;
+  }
+  
+  .loaded .preloader {
+    display: none;
+  }
