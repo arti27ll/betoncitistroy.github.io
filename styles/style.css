@@ -118,11 +118,11 @@ li.active
 }
 #aboutus
 {
-    background-image: url(/images/backgrounds/bg_aboutus.png);
+    background-image: url(../images/backgrounds/bg_aboutus.png);
 }
 #offer
 {
-    background-image: url(/images/backgrounds/bg_offer2.jpg);
+    background-image: url(../images/backgrounds/bg_offer2.jpg);
     background-position: bottom;
     background-size: cover;
 }
@@ -152,7 +152,7 @@ li.active
 #firstscreen
 {
     padding-top: 130px;
-    background-image: url(/images/first.png);
+    background-image: url(../images/first.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -218,11 +218,11 @@ li.active
 }
 #image_footer
 {
-    background-image: url(/images/icons/footer/footer.png);
+    background-image: url(../images/icons/footer/footer.png);
 }
 #price
 {
-    background-image: url(/images/backgrounds/bg_price.png)   
+    background-image: url(../images/backgrounds/bg_price.png)   
 }
 #photos
 {
