@@ -141,9 +141,17 @@ li.active
 	border-width: 41.6px;
     top: -4px;
 }
-#numsocial
+#social
 {
     padding-bottom: 10.5px!important;
+}
+#social img
+{
+    margin-left: 15px;
+}
+#social img:nth-child(1)
+{
+    margin-left: 0px;
 }
 #header
 {

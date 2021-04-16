@@ -1,7 +1,41 @@
-<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40Z" fill="#7BD15F"/>
-<path d="M6.89209 12.2252V27.7582L14.4669 19.9603L6.89209 12.2252Z" fill="white"/>
-<path d="M33.1085 12.2252V27.7582L25.5713 19.9917L33.1085 12.2252Z" fill="white"/>
-<path d="M7.46582 11.5208H32.4857L22.6525 21.7597C21.9527 22.4883 20.9861 22.9002 19.9758 22.9002C18.9656 22.9002 17.9989 22.4883 17.2991 21.7597L7.46582 11.5208Z" fill="white"/>
-<path d="M23.2198 22.3044C22.3761 23.1828 21.1938 23.6867 19.9758 23.6867C18.7579 23.6867 17.5755 23.183 16.7319 22.3045L15.064 20.5677L7.46582 28.4792H32.4857L24.8876 20.5677L23.2198 22.3044Z" fill="white"/>
-</svg>
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g>
+<circle xmlns="http://www.w3.org/2000/svg" style="" cx="256" cy="256" r="256" fill="#5f98d1" data-original="#5f98d1" class=""/>
+<path xmlns="http://www.w3.org/2000/svg" style="" d="M415.813,147.466H95.558l116.019,120.806l33.48,33.9c-18.216-4.164-19.343-6.759-27.415-13.349  c-4.234-3.457-12.414-12.852-24.838-25.54C154.023,223.682,88.217,156.484,88.217,156.484v198.822l8.265,8.265l-0.925,0.963  L242.68,511.657c4.412,0.226,8.852,0.343,13.32,0.343c141.385,0,256-114.615,256-256c0-4.246-0.11-8.466-0.313-12.661  L415.813,147.466z" fill="#5f98d1" data-original="#3a6da1" class=""/>
+<g xmlns="http://www.w3.org/2000/svg">
+	<polygon style="" points="88.217,156.484 88.217,355.306 185.175,255.493  " fill="#ffffff" data-original="#ffffff" class=""/>
+	<polygon style="" points="423.783,156.484 423.783,355.306 327.307,255.895  " fill="#ffffff" data-original="#ffffff" class=""/>
+	<path style="" d="M95.558,147.466h320.255L289.948,278.524c-8.958,9.327-21.331,14.599-34.262,14.599   s-25.304-5.272-34.262-14.599L95.558,147.466z" fill="#ffffff" data-original="#ffffff" class=""/>
+	<path style="" d="M297.209,285.496c-10.799,11.244-25.933,17.694-41.523,17.694c-15.589,0-30.724-6.448-41.522-17.693   l-21.349-22.23L95.558,364.534h320.255l-97.256-101.267L297.209,285.496z" fill="#ffffff" data-original="#ffffff" class=""/>
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+<g xmlns="http://www.w3.org/2000/svg">
+</g>
+</g></svg>
