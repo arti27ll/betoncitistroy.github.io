@@ -231,6 +231,11 @@ li.active
     width: fit-content;
     margin: 0px auto;
 }
+#aboutus .container
+{
+    position: relative;
+    z-index: 2;
+}
 input[type="email"]
 {
     background: url(../images/icons/form/user.svg);
