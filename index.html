@@ -90,7 +90,7 @@
                                 <p class="lh-sm fs-6 fw-light">На каждом этапе<br>производства</p>
                             </div>
                         </div>
-                        <div class="row mt-5">
+                        <div class="row mt-5 pt-4">
                             <div class="col-md-6 col-sm-12 pe-0 text-orange" id="procent">
                                 <h1>ДО 20%</h1>
                             </div>
@@ -104,8 +104,8 @@
                             <h4 class="text-blue fw-bold mb-1">ОСТАВЬТЕ ЗАЯВКУ</h4>
                             <p class="text-orange mb-1">ПРЯМО СЕЙЧАС</p>
                             <p class="text-lightblue lh-sm fw-light">Менеджер свяжется с вами в ближайшее время</p>
-                                <input type="email" placeholder="Ваше имя" class="form-control br-0" aria-describedby="emailHelp">
-                                <input type="tel" placeholder="Ваш телефон" class="form-control">
+                                <input type="email" placeholder="Ваше имя" class="form-control br-0 email" aria-describedby="emailHelp">
+                                <input type="tel" placeholder="Ваш телефон" class="form-control phone">
                                 <input type="submit" id="submit1" class="form-control bg-orange text-white fw-bold" value="Отправить заявку">
                             <div class="form-check my-3">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -121,7 +121,7 @@
     <section class="container my-3 pt-6" id="advantages">
         <div class="row">
             <div class="col-md-4 col sm-2 text-left d-flex px-0">
-                <h2 class="my-auto"><span class="text-blue fw-bold">Преимущества</span><br>работы с нами<hr id="strip"></h2>
+                <h2 class="my-auto"><span class="text-blue fw-bold">Преимущества</span><br>работы с нами<hr class="strip"></h2>
             </div>
             <div class="col-md-4 col sm-2 text-center border">
                 <img src="images/icons/advantages/1.svg" alt="check" width="100" height="75" class="mt-4 mb-3">
@@ -264,26 +264,29 @@
     </section>
     <!-- End of price-->
     <!-- it's offer -->
-    <div class="content mb-5" id="offer">
-        <div class="container py-5 text-white">
-            <h2>Узнайте <span class="text-orange fw-bold">актуальные цены</span></h2>
-            <p class="fs-5 lh-1 text-slightblue">Менеджер подробно расскажет<br>об актуальных ценах и акциях</p>
-            <form class="row text-start g-0 col-md-8 mt-4" id="application_price">
-                <div class="col-md-4"><input type="email" placeholder="Ваше имя" class="form-control br-0 col-md-4" aria-describedby="emailHelp"></div>
-                <div class="col-md-4"><input type="tel" name="tel" placeholder="Ваш телефон" class="form-control col-md-4"></div>
-                <div class="col-md-4"><input type="submit" id="submit2" class="form-control bg-orange text-white fw-bold col-md-4" value="Отправить заявку"></div>
-                <div class="form-check my-2 text-white">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck2">
-                    <label class="form-check-label fw-light lh-1" for="exampleCheck2">Соглашаюсь на обработку персональных данных</label>
-                </div>
-            </form>
+    <div class="content" id="offer">
+        <div class="content-parallax">
+            <div class="container py-5 text-white">
+                <h2>Узнайте <span class="text-orange fw-bold">актуальные цены</span></h2>
+                <p class="fs-5 lh-1 text-slightblue">Менеджер подробно расскажет об актуальных ценах и акциях</p>
+                <form class="row text-start g-0 col-md-8 mt-4" id="application_price">
+                    <div class="col-md-4"><input type="email" placeholder="Ваше имя" class="form-control br-0 col-md-4" aria-describedby="emailHelp"></div>
+                    <div class="col-md-4"><input type="tel" name="tel" placeholder="Ваш телефон" class="form-control col-md-4"></div>
+                    <div class="col-md-4"><input type="submit" id="submit2" class="form-control bg-orange text-white fw-bold col-md-4" value="Отправить заявку"></div>
+                    <div class="form-check my-2 text-white">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                        <label class="form-check-label fw-light lh-1" for="exampleCheck2">Соглашаюсь на обработку персональных данных</label>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
     <!-- end of offer -->
     <!-- it's about us -->
-    <section class="content my-3 pt-6 text-center" id="aboutus">
+    <section class="content pt-6 text-center" id="aboutus">
         <div class="container">
-            <h2>О нашей<span class="text-blue fw-bold"> компании</span></h2>
+            <h2>О нашей<span class="text-blue fw-bold"> компании</span><hr class="strip"></h2>
+            
             <div class="row my-5 text-start gy-3">
                 <div class="col-md-3">
                     <img src="images/icons/aboutus/1.svg" width="50px" height="50px">
@@ -375,17 +378,22 @@
         </div>
     </section>
     <!-- Is's license -->
-    <div class="container">
-        <h2 class="text-start">Наши<span class="text-blue fw-bold"> Сертификаты</span></h2>
-        <div class="row row-cols-3 g-2 pt-4">
-            <div class="col license">
-                <img src="images/aboutus/license/1.jpg" alt="" width="100%" height="100%">
+    <div class="content">
+        <div class="container">
+            <div class="row g-0 contabus">
+                <h2 class="text-start col-md-5 pt-4">Наши<span class="text-blue fw-bold"> Сертификаты</span></h2>
+                <div class="contabus_in"></div>
             </div>
-            <div class="col license">
-                <img src="images/aboutus/license/2.jpg" alt="" width="100%" height="100%">
-            </div>
-            <div class="col license">
-                <img src="images/aboutus/license/3.jpg" alt="" width="100%" height="100%">
+            <div class="row row-cols-3 g-2 mt-5">
+                <div class="col license">
+                    <img src="images/aboutus/license/1.jpg" alt="" width="100%" height="100%">
+                </div>
+                <div class="col license">
+                    <img src="images/aboutus/license/2.jpg" alt="" width="100%" height="100%">
+                </div>
+                <div class="col license">
+                    <img src="images/aboutus/license/3.jpg" alt="" width="100%" height="100%">
+                </div>
             </div>
         </div>
     </div>
