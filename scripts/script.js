@@ -6,12 +6,12 @@ $(function () {
 });
 
 jQuery(window).scroll(function(){
-    var $sections = $('section');
+    let $sections = $('section');
     $sections.each(function(i,el){
-   var top  = $(el).offset().top-100;
-   var bottom = top +$(el).height();
-   var scroll = $(window).scrollTop();
-   var id = $(el).attr('id');
+   let top  = $(el).offset().top-100;
+   let bottom = top +$(el).height();
+   let scroll = $(window).scrollTop();
+   let id = $(el).attr('id');
    if( scroll > top && scroll < bottom){
        $('a.active').removeClass('active');
        $('li.active').removeClass('active');
@@ -19,4 +19,8 @@ jQuery(window).scroll(function(){
        $('li[name="'+id+'"]').addClass('active');
    }
 })
+});
+
+$(document).ready(function(){
+    $(".phone").mask("+7 (999) 999-99-99");
 });

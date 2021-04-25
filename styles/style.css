@@ -39,6 +39,10 @@ input:focus
 {
     border-bottom: 0;
 }
+.info table tr
+{
+    border-bottom: 2px dashed lightgray;
+}
 .nav-item
 {
     height: 100%;
@@ -111,7 +115,6 @@ li.active
 {
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(236,241,255,1) 30%, rgba(218,227,255,1) 100%);
     position: relative;
-
 }
 #aboutus:before
 {
@@ -236,12 +239,12 @@ li.active
     position: relative;
     z-index: 2;
 }
-input[type="email"]
+input[type="text"]
 {
     background: url(../images/icons/form/user.svg);
     background-repeat: no-repeat;
     padding-left: 35px;
-    background-size: 10%;
+    background-size: 27px;
     background-position: 5px;
     background-color: white;
 }
@@ -250,7 +253,7 @@ input[type="tel"]
     background: url(../images/icons/form/mobile.svg);
     background-repeat: no-repeat;
     padding-left: 35px;
-    background-size: 6%;
+    background-size: 15px;
     background-position: 9px;
     background-color: white;
 }
@@ -266,7 +269,7 @@ input[type="tel"]
 {
     height: 380px;
 }
-#application input[type="email"]
+#application input[type="text"]
 {
     border-bottom: 0px;
 }
@@ -291,6 +294,10 @@ input[type="tel"]
 {
     box-shadow: 0 0 0 1rem rgb(224, 237, 250);
 }
+#desc
+{
+    border-top: 1px solid blue;
+}
 #image_footer
 {
     background-image: url(../images/icons/footer/footer.png);
@@ -298,6 +305,10 @@ input[type="tel"]
 #price
 {
     background-image: url(../images/backgrounds/bg_price.png)   
+}
+#pricelist-2
+{
+    /* display: none; */
 }
 #photos
 {
@@ -314,6 +325,11 @@ input[type="tel"]
 #footer a
 {
     text-decoration: none;
+}
+#img_1work
+{
+    background-image: url(../images/stroy.jpg);
+    background-size: cover;
 }
 /* it's preloader */
 .preloader {
@@ -342,3 +358,68 @@ input[type="tel"]
   .loaded .preloader {
     display: none;
   }
+@media screen and (min-width: 992px) and (max-width: 1194px)
+{
+    #heading::before
+    {
+        top: -5px;
+    }
+}
+@media screen and (max-width: 992px)
+{
+    #firstscreen
+    {
+        text-align: center;
+    }
+    #heading
+    {
+        border: 0px;
+    }
+    #heading::before
+    {
+        content:none;
+    }
+    #aboutus .container .row
+    {
+        text-align: center!important;
+    }
+    #advantages
+    {
+        margin-top: 0px!important;
+        padding-top: 3em!important;
+        text-align: center!important;
+    }
+    .strip
+    {
+        height: 0px!important;
+    }
+    #advantages .row div
+    {
+        height:auto;
+    }
+    #advantages .row div:nth-child(1n)
+    {
+        display: block!important;
+    }
+    #works h2
+    {
+        text-align: center;
+    }
+    #works h4
+    {
+        font-size: 16pt;
+    }
+    .carousel-item button
+    {
+        width: 50%;
+    }
+    .price_item
+    {
+        border: 3px solid rgba(0,0,0,0.2)!important;
+        border-top: 0px!important;
+    }
+    .price_item:nth-child(1)
+    {
+        border-top: 3px solid rgba(0,0,0,0.2)!important;
+    }
+}
