@@ -126,7 +126,7 @@ li.active
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
-    background-image: url(../images/backgrounds/117428.webp);
+    background-image: url(../images/backgrounds/bg_aboutus.webp);
     opacity: 0.15;
     z-index: 1;
     left: 0;
@@ -143,7 +143,7 @@ li.active
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
-    background-image: url(../images/backgrounds/bg_offer.png);
+    background-image: url(../images/backgrounds/bg_offer.webp);
 }
 .content
 {
@@ -197,7 +197,7 @@ li.active
 #firstscreen
 {
     padding-top: 130px;
-    background-image: url(../images/first.png);
+    background-image: url(../images/backgrounds/bg_firstscreen.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -300,11 +300,11 @@ input[type="tel"]
 }
 #image_footer
 {
-    background-image: url(../images/icons/footer/footer.png);
+    background-image: url(../images/backgrounds/bg_footer.webp);
 }
 #price
 {
-    background-image: url(../images/backgrounds/bg_price.png)   
+    background-image: url(../images/backgrounds/bg_price.webp)   
 }
 #pricelist-2
 {
