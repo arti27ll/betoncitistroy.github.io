@@ -308,7 +308,11 @@ input[type="tel"]
 }
 #pricelist-2
 {
-    /* display: none; */
+    display: none;
+}
+#pricelist-2 ol li
+{
+    padding-bottom: 0.5em;
 }
 #photos
 {
@@ -401,9 +405,9 @@ input[type="tel"]
     {
         display: block!important;
     }
-    #works h2
+    #works h2, #price h2, #aboutus h2, .contabus h2
     {
-        text-align: center;
+        text-align: center!important;
     }
     #works h4
     {
@@ -421,5 +425,33 @@ input[type="tel"]
     .price_item:nth-child(1)
     {
         border-top: 3px solid rgba(0,0,0,0.2)!important;
+    }
+    #pricelist-2
+    {
+        font-size: 13.5px;
+    }
+    #pricelist-2-cont
+    {
+        flex-direction: column;
+    }
+    .contabus_in
+    {
+        display: none;
+    }
+    #footer_space
+    {
+        display: none;
+    }
+    #contacts
+    {
+        margin-top: 3em;
+    }
+    #contact_us
+    {
+        margin-top: 2em;
+    }
+    #dev
+    {
+        text-align: left!important;
     }
 }
